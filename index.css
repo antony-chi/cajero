@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+
+body{
+    background-color: #023E73;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contenedorlogin{
+    background-color: #F23D4C;
+    width: 30vw;
+    height: auto;
+    border: solid 1vh;
+    border-radius: 10%;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicioSesion{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.customInput{
+    height: 4vh;
+    width: 18vw;
+    padding-left: 5%;
+    margin-bottom: 30%;
+    text-align: center;
+}
+
+.customButton{
+    background-color: #35EADB;
+    height: 40px;
+    width: 60px;
+    outline: none;
+    border: none;
+    margin-bottom: 3em;
+}
+.hide{
+    display: none;
+}
+
+.error{
+    color: black;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.render{
+    width: 300px;
+    height: 120px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.lista{
+    color: white;
+    font-size: 14;
+}
+
+#tituloBanco{
+    
+    /* border-style: solid;
+    border-color: crimson; */
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: black;
+    text-decoration-line: underline;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.operacion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    
+}
+
+#salir{
+    background-color: red;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 1em;
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+    position: fixed;
+    top: 85%;
+    right: 30%;
+}
+
+.consteneadorSaldo{
+    background-color: black;
+    width: 15px;
+    height: 20px;
+    
+}
+.saldo{
+    color: white;
+    font-size: 14;
+    margin: 15px;
+}
+.menuPruncipal{
+
+    padding-top: 3%;
+    padding-bottom: 3%;    
+}
+
+#btnSaldo{
+    padding: 10px;
+    margin: 3%;
+}

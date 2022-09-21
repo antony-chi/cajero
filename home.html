@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home">
+        <h1 id="tituloBanco">Bienvenido a tu cuenta</h1>
+        <h2 class="menuPruncipal">Menu Principal</h2>
+        <span id="mostrarSaldo" class="hide"></span>
+        <!-- <button id="btnSaldo">Presione para ver saldo</button> -->
+        
+        <div id="sumarDinero" class="home">
+            <span class="operacion">Depositar dinero (abonar)</span>
+            <input id="montoSumar" type="number" class="customInput" placeholder="cantidad a ingresar" min="1" max="10000">
+
+            <button id="btnSumar" type="click">Ingresar</button>
+        </div>
+
+        <div id="retirarDinero" class="home">
+            <span class="operacion">Cantidad a Retirar</span>
+            <input type="number" id="montoRetirar" class="customInput" placeholder="Cantidad a Retirar">
+            <button id="btnRetirar"> Retirar</button>
+        </div>
+    </div>
+
+    <button id="salir">Salir</button>
+
+    <script src="./home.js"></script>
+
+</body>
+</html>
